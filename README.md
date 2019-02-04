@@ -26,8 +26,9 @@ $ open ios/Runner.xcworkspace
 > signing に 自分のアカウントを選択
 
 $ flutter run
-のiPhone • a88c35115a603139ecfa61758abddf0743415045 • ios • iOS 12.1.2
-iPhone XR  • ABD9475A-1BB4-43EC-B182-4313AE70DBA6     • ios • iOS 12.1 (simulator)
 $ flutter build ios
-$ flutter install -d {デバイスid}
+$ flutter devices
+ExampleのiPhone • {Device ID} • ios • iOS 12.1.2
+iPhone XR  • {Device ID}  • ios • iOS 12.1 (simulator)
+$ flutter install -d {Device ID}
 ```
